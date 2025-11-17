@@ -1,0 +1,40 @@
+# SmartBookQA - Requirements
+# RAG Application for PDF Question-Answering
+
+# Core Framework
+streamlit>=1.28.0
+
+# PDF Processing
+PyPDF2>=3.0.0
+
+# Vector Database
+chromadb>=0.4.15
+
+# LangChain (for text splitting and optional LLM support)
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-text-splitters>=1.0.0  # Required for LangChain 1.0+
+
+# OpenAI (optional - for embeddings and GPT)
+openai>=1.3.0
+
+# Token Counting
+tiktoken>=0.5.1
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Local Embeddings (fallback)
+sentence-transformers>=2.2.2
+
+# Local LLM Support (optional)
+# Uncomment if you want to use Ollama
+# ollama>=0.1.0
+
+# Transformers for local LLM fallback (optional)
+transformers>=4.35.0
+torch>=2.0.0
+
+# Utilities
+numpy>=1.24.0
+
